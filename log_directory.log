@@ -1,0 +1,309 @@
+2023-01-07 21:13:28,939 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 21:13:46,343 - log_directory - INFO - name lena: S741v
+2023-01-07 21:13:56,058 - log_directory - INFO - surname egorova: S741v
+2023-01-07 21:14:02,799 - log_directory - INFO - phone 12365478: S741v
+2023-01-07 21:14:21,752 - log_directory - INFO - note qwerty: S741v
+2023-01-07 21:18:40,535 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 21:18:40,535 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 21:18:47,289 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 21:18:51,077 - log_directory - INFO - {'one_time_keyboard': True, 'keyboard': [[{'text': '/view'}, {'text': '/enter'}], [{'text': '/search'}, {'text': '/edit'}], [{'text': '/cancel'}]], 'selective': False, 'resize_keyboard': True}
+2023-01-07 21:49:11,353 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 21:49:11,353 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 21:49:18,353 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 21:49:23,379 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000018769653940>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-07 21:49:23,835 - log_directory - INFO - mes /start: S741v
+2023-01-07 21:54:29,741 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 21:54:29,741 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 21:54:35,616 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 21:54:40,717 - log_directory - INFO - action /start: S741v
+2023-01-07 21:54:51,876 - log_directory - INFO - name Вася: S741v
+2023-01-07 21:54:58,215 - log_directory - INFO - surname Степанов: S741v
+2023-01-07 21:55:05,521 - log_directory - INFO - phone 365125896: S741v
+2023-01-07 21:55:12,603 - log_directory - INFO - note Друг: S741v
+2023-01-07 21:55:12,611 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 84, in note
+    file.writelines(s + '\t\t' for s in data)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-3: character maps to <undefined>
+2023-01-07 21:58:16,828 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 21:58:16,828 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 21:58:26,379 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 21:58:37,456 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000026289C72860>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/sendMessage
+2023-01-07 21:58:45,472 - log_directory - INFO - name Вася: S741v
+2023-01-07 21:58:50,014 - log_directory - INFO - surname Петров: S741v
+2023-01-07 21:58:54,965 - log_directory - INFO - phone 325654789: S741v
+2023-01-07 21:59:00,574 - log_directory - INFO - note друг: S741v
+2023-01-07 22:01:25,770 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 22:01:25,770 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 22:01:35,136 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 22:01:40,161 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001FF067539A0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-07 22:01:51,441 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 45, in name
+    logger.info("name %s: %s", update.message.text, user.username, encoding='utf-8')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'encoding'
+2023-01-07 22:01:56,766 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 45, in name
+    logger.info("name %s: %s", update.message.text, user.username, encoding='utf-8')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'encoding'
+2023-01-07 22:03:32,726 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 45, in name
+    logger.info("name %s: %s", update.message.text, user.username)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'encoding'
+2023-01-07 22:03:38,182 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 45, in name
+    logger.info("name %s: %s", update.message.text, user.username)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'encoding'
+2023-01-07 22:03:39,465 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 45, in name
+    logger.info("name %s: %s", update.message.text, user.username)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'encoding'
+2023-01-07 22:03:40,879 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\teldirbot\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\teldirbot\teldirbot_func.py", line 45, in name
+    logger.info("name %s: %s", update.message.text, user.username)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'encoding'
+2023-01-07 22:03:44,729 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 22:03:44,729 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 22:03:54,339 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 22:04:02,840 - log_directory - INFO - name Вася: S741v
+2023-01-07 22:04:11,712 - log_directory - INFO - surname Суворов: S741v
+2023-01-07 22:04:17,910 - log_directory - INFO - phone 741852963: S741v
+2023-01-07 22:04:28,568 - log_directory - INFO - note сосед: S741v
+2023-01-07 22:10:31,330 - log_directory - INFO - action /start: S741v
+2023-01-07 22:13:15,601 - log_directory - INFO - action /start: S741v
+2023-01-07 22:25:57,582 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 22:25:57,583 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 22:26:06,711 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 22:26:16,782 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000013BBAD51180>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/sendMessage
+2023-01-07 22:26:16,975 - log_directory - INFO - action /start: S741v
+2023-01-07 22:34:04,358 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 22:34:04,359 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 22:34:14,306 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 22:34:19,349 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000024C55953880>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-07 22:34:19,831 - log_directory - INFO - action /start: S741v
+2023-01-07 22:58:54,502 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 22:58:54,503 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 22:58:59,927 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 22:59:04,949 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001C3B56537C0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-07 22:59:05,388 - log_directory - INFO - action /start: S741v
+2023-01-07 23:09:46,141 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:09:46,142 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:09:53,026 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:12:33,071 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:12:33,071 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:12:53,491 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:16:27,325 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:16:27,325 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:16:38,231 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:21:32,858 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:21:32,859 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:21:37,918 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:29:57,294 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:29:57,294 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:30:03,882 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:31:09,181 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:31:09,181 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:31:14,890 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:32:25,342 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:32:25,342 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:32:37,241 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:32:42,264 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001CE10E53730>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-07 23:32:47,275 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001CE10E536D0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-07 23:33:49,685 - log_directory - INFO - action /start: S741v
+2023-01-07 23:34:05,405 - log_directory - INFO - action /start: S741v
+2023-01-07 23:34:14,362 - log_directory - INFO - action /start: S741v
+2023-01-07 23:34:31,322 - log_directory - INFO - name sasha: S741v
+2023-01-07 23:34:43,166 - log_directory - INFO - surname pavlova: S741v
+2023-01-07 23:34:47,889 - log_directory - INFO - phone 789654123: S741v
+2023-01-07 23:34:54,328 - log_directory - INFO - note job: S741v
+2023-01-07 23:35:40,736 - log_directory - INFO - action /start: S741v
+2023-01-07 23:38:14,770 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:38:14,770 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:38:21,076 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:42:14,224 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:42:14,224 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:42:37,341 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:46:00,639 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:46:00,639 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:47:56,357 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:50:48,348 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:50:48,348 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:51:15,230 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-07 23:56:12,930 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-07 23:56:12,930 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-07 23:56:22,604 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:05:14,525 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 00:05:14,525 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 00:05:21,704 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:06:46,280 - log_directory - INFO - action /start: S741v
+2023-01-08 00:11:01,890 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 00:11:01,890 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 00:11:09,996 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:13:12,441 - log_directory - INFO - action /start: S741v
+2023-01-08 00:17:39,863 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 00:17:39,864 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 00:17:51,907 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:17:56,939 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001F099653790>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5884161125:AAGfP_0puAvaGrLOvs42gz8o04r6pw25R8I/getMe
+2023-01-08 00:17:58,242 - log_directory - INFO - action /start: S741v
+2023-01-08 00:25:04,467 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 00:25:04,467 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 00:25:11,915 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:25:16,617 - log_directory - INFO - action /start: S741v
+2023-01-08 00:31:15,534 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 00:31:15,534 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 00:31:21,653 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:31:28,643 - log_directory - INFO - action /start: S741v
+2023-01-08 00:33:25,006 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 00:33:25,006 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 00:33:32,018 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 00:33:40,282 - log_directory - INFO - action /start: S741v
+2023-01-08 00:33:49,874 - log_directory - INFO - name lena: S741v
+2023-01-08 00:33:57,587 - log_directory - INFO - surname petrova: S741v
+2023-01-08 00:34:02,908 - log_directory - INFO - phone 789654123: S741v
+2023-01-08 00:34:09,590 - log_directory - INFO - note job: S741v
+2023-01-08 00:34:12,368 - log_directory - INFO - action /start: S741v
+2023-01-08 00:34:31,020 - log_directory - INFO - name vasy: S741v
+2023-01-08 00:34:39,154 - log_directory - INFO - surname sidorov: S741v
+2023-01-08 00:34:45,211 - log_directory - INFO - phone 369852147: S741v
+2023-01-08 00:34:50,680 - log_directory - INFO - note home: S741v
+2023-01-08 00:34:56,832 - log_directory - INFO - action /start: S741v
+2023-01-08 16:39:37,749 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 16:40:06,383 - log_directory - INFO - action /start: S741v
+2023-01-08 16:40:31,391 - log_directory - INFO - name sasha: S741v
+2023-01-08 16:40:45,555 - log_directory - INFO - surname smolnov: S741v
+2023-01-08 16:40:52,635 - log_directory - INFO - phone 145632589: S741v
+2023-01-08 16:41:05,430 - log_directory - INFO - note collega: S741v
+2023-01-08 16:41:20,157 - log_directory - INFO - action /start: S741v
+2023-01-08 16:41:26,860 - log_directory - INFO - name /cancel: S741v
+2023-01-08 16:41:29,658 - log_directory - INFO - surname /cancel: S741v
+2023-01-08 16:41:30,761 - log_directory - INFO - phone /cancel: S741v
+2023-01-08 16:41:33,089 - log_directory - INFO - note /cancel: S741v
+2023-01-08 16:41:48,361 - log_directory - INFO - action /start: S741v
+2023-01-08 16:50:25,566 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 16:50:25,567 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 16:50:33,588 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 16:51:42,531 - log_directory - INFO - action /start: S741v
+2023-01-08 16:52:00,592 - log_directory - INFO - name igor: S741v
+2023-01-08 16:52:16,541 - log_directory - INFO - surname gorunov: S741v
+2023-01-08 16:52:23,142 - log_directory - INFO - phone 789523641: S741v
+2023-01-08 16:52:29,435 - log_directory - INFO - note sun: S741v
+2023-01-08 16:52:53,244 - log_directory - INFO - action /start: S741v
+2023-01-08 16:58:57,535 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 16:58:57,535 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 16:59:13,044 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 16:59:16,226 - log_directory - INFO - action /start: S741v
+2023-01-08 16:59:30,449 - log_directory - INFO - name egor: S741v
+2023-01-08 16:59:45,905 - log_directory - INFO - surname dudkin: S741v
+2023-01-08 16:59:56,483 - log_directory - INFO - phone 159263487: S741v
+2023-01-08 17:00:06,938 - log_directory - INFO - note frend: S741v
+2023-01-08 17:00:22,837 - log_directory - INFO - action /start: S741v
+2023-01-08 17:04:26,780 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 17:04:26,780 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 17:04:40,342 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 17:05:11,640 - log_directory - INFO - action /start: S741v
+2023-01-08 17:18:11,651 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 17:18:11,652 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 17:18:25,074 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 17:18:41,112 - log_directory - INFO - action /start: S741v
+2023-01-08 17:19:05,927 - log_directory - INFO - name alex: S741v
+2023-01-08 17:19:24,485 - log_directory - INFO - surname pushkin: S741v
+2023-01-08 17:19:31,507 - log_directory - INFO - phone 456321789: S741v
+2023-01-08 17:19:39,101 - log_directory - INFO - note poet: S741v
+2023-01-08 17:20:02,002 - log_directory - INFO - action /start: S741v
+2023-01-08 17:29:35,213 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 17:29:35,213 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 17:29:58,759 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 18:48:29,292 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 18:48:29,293 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 18:48:39,051 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 18:48:42,246 - log_directory - INFO - action /start: S741v
+2023-01-08 18:56:04,017 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 18:56:04,017 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 18:56:18,778 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:03:23,686 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 19:03:23,686 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 19:03:41,368 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:04:26,068 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 19:04:26,068 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 19:04:38,661 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:08:00,739 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 19:08:00,740 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 19:08:12,456 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:12:22,018 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 19:12:22,018 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 19:12:36,662 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:14:04,616 - log_directory - INFO - action /start: S741v
+2023-01-08 19:14:26,933 - log_directory - INFO - action /start: S741v
+2023-01-08 19:27:21,371 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 19:27:21,371 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 19:27:59,571 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:28:00,059 - log_directory - INFO - action /start: S741v
+2023-01-08 19:28:02,391 - log_directory - INFO - action /start: S741v
+2023-01-08 19:28:20,003 - log_directory - INFO - action /start: S741v
+2023-01-08 19:28:58,821 - log_directory - INFO - action /start: S741v
+2023-01-08 19:30:55,769 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-08 19:30:55,769 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-08 19:31:10,069 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-08 19:31:15,419 - log_directory - INFO - action /start: S741v
+2023-01-08 19:31:34,345 - log_directory - INFO - action /start: S741v
