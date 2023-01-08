@@ -11,7 +11,6 @@ start_handler=CommandHandler('start', start)
 cancel_handler=CommandHandler('cancel',cancel)
 view_handler=CommandHandler('view',view)
 search_handler=CommandHandler('search',search)
-#edit_handler=CommandHandler('edit', edit)
 
 edit_handler=ConversationHandler(
     entry_points=[CommandHandler('edit', edit)],
@@ -34,10 +33,8 @@ enter_handler=ConversationHandler(
         fallbacks=[CommandHandler('cancel',cancel)],
 )
 
-#new_contact_message_handler=MessageHandler(Filters.text, new_contact)
+
 search_message_handler=MessageHandler(Filters.text, search_message)
-#search_message_for_edit_handler=MessageHandler(Filters.text, search_message_for_edit)
-#new_contact_message_handler=MessageHandler(Filters.text, new_contact)
 
 
 dispatcher.add_handler(enter_handler)
